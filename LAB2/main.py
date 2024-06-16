@@ -24,7 +24,7 @@ def GetMTU(host):
             L = M
         else:
             R = M
-    if L == False:
+    if L == 0:
         print('Хост недоступен')
         return 1
     print('MTU =', L, '(' + str(L + 28) + ')')
